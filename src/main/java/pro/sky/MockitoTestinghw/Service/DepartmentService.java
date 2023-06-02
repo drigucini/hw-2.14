@@ -8,7 +8,6 @@ import java.util.Map;
 import java.util.Optional;
 
 public interface DepartmentService {
-
     Optional<Employee> getEmployeeMinSalary(Integer departmentID);
 
     Optional<Employee> getEmployeeMaxSalary(Integer departmentID);
